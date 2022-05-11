@@ -1,0 +1,15 @@
+.table-data-row-heading > th{
+    text-align: center;
+    justify-content: center;
+    display:flex;
+    margin:auto;
+    width:100%;
+   
+}
+.table-data-row-heading{
+    margin: auto;
+    display:flex;
+    gap:2em;
+    
+}
+

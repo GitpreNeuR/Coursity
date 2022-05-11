@@ -1,0 +1,178 @@
+.signup-main-form-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  
+  }
+  .back-button{
+      width:10%;
+      
+  }
+  .back-button > .linking>  i{
+
+    font-size:3em;
+    margin: auto;
+    color:rgb(171, 83, 24);
+    cursor: pointer;
+
+
+  }
+
+  .back-button > .linking >  i:hover{
+      color:brown;
+  }
+  
+  
+  .signup-container {
+    position: relative;
+    padding: 50px;
+    width: 100%;
+    height:900px;
+    max-width:900px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba( 245, 166, 35, 0.75 );
+    box-shadow: rgba(153, 85, 32, 0.4) 5px 5px, rgba(153, 85, 32, 0.3) 10px 10px, rgba(153, 85, 32, 0.2) 15px 15px, rgba(153, 85, 32, 0.1) 20px 20px, rgba(153, 85, 32, 0.05) 25px 25px;
+border-radius: 10px;
+border: 2px solid brown;
+transform:scale(0.93);
+bottom:5em;
+  }
+  
+  .signup-form {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    
+  }
+  .signup-form > h2 {
+    position:relative;
+    color: rgb(92, 49, 4);
+    letter-spacing: 2px;
+    margin-bottom: 30px;
+    transition:0.5s;
+     transition:0.5s;
+    text-align: center;
+    font-size:2em;
+    
+    
+  }
+  
+  .signup-form .inputBx {
+    position: relative;
+    width: 100%;
+    position:relative;
+    left:4em;
+    margin:auto auto 20px auto;
+  }
+  .signup-form .inputBx input {
+    width: 80%;
+    outline: none;
+    border: none;
+    border: 2px solid brown;
+    background: rgba(255, 255, 255, 0.2);
+    padding: 8px 10px;
+    padding-left: 40px;
+    border-radius: 15px;
+    color: #fff;
+    font-size: 16px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+  }
+  
+  
+  .signup-form .inputBx .fas {
+    position: absolute;
+    top: 13px;
+    left: 13px;
+    font-size:1.4em;
+    color:rgb(73, 49, 7);
+  }
+  .signup-form .inputSubmit{
+      margin:auto;   
+      width:100%;
+      margin-top:2em;
+
+
+  }
+  .signup-form .inputSubmit input[type="submit"] {
+    background: #fff;
+    color: #111;
+    width:250px;
+    padding: 8px 10px;
+    box-shadow: none;
+    letter-spacing: 1px;
+    cursor: pointer;
+    transition: 0.2s;
+    left:30%;
+    border:2px solid rgb(153, 104, 6);
+    
+
+
+   
+    
+  }
+  
+  .signup-form .inputSubmit input[type="submit"]:hover {
+    color: rgb(176, 111, 13);
+    transition: 0.2s;
+    background-color: rgb(238, 183, 128);
+  }
+  .signup-form .inputBx input::placeholder {
+    color: #fff;
+  }
+  .signup-form .inputBx span {
+    position: absolute;
+    left: 30px;
+    padding: 10px;
+    display: inline-block;
+    color: rgb(105, 64, 9);
+    transition: 0.5s;
+    pointer-events: none;
+  }
+  .signup-form .inputBx input:focus ~ span, .signup-form .inputBx input:valid ~ span {
+display: none;    font-size: 12px;
+  }
+  
+  .signup-para-flex{
+      display:flex;
+      gap:7em;
+      margin:1em auto auto auto;
+      justify-content: center;
+  }
+  .signup-para-flex > p{
+      font-size:1.2em;
+  }
+
+  .signup-para-flex > p >a{
+      color:white;
+  }
+  .signup-para-flex > p >a:hover{
+      color:brown;
+  }
+  .signup-social-login-icons{
+      display:flex;
+      gap:3em;
+      justify-content: center;
+      align-items: center;
+      margin:3em auto;
+
+  }
+  .signup-social-login-icons > i{
+      color:rgb(80, 58, 6);
+      font-size:1.8em;
+      padding:10px;
+      border-radius: 50%;
+      cursor:pointer;
+      background-color: bisque;
+      border:2px solid brown;
+      transition: 0.3s;
+
+      
+  }
+  .signup-social-login-icons > i:hover{
+      transform:scale(1.1);
+      transition: 0.3s;
+  }
+  

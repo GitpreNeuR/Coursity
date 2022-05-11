@@ -1,0 +1,337 @@
+::-webkit-scrollbar-track
+{
+	border: 1px solid rgb(80, 44, 0);
+	background-color: #f0df96;
+    border-radius: 10px;
+    visibility: hidden;
+    display:none;
+
+}
+body{
+    overflow-x:hidden;
+}
+
+::-webkit-scrollbar
+{
+	width: 10px;
+	background-color: #f0df96;
+    display:none;
+}
+
+::-webkit-scrollbar-thumb
+{
+	background-color: #412406;	
+    border-radius: 10px;
+    display:none;
+
+}
+section{
+    padding:6rem 0;
+}
+.nav-button:hover{
+    text-decoration: none;
+}
+
+
+.container{
+    width:80%;
+    margin:auto;
+}
+header{
+    position:relative;
+    top:5rem;
+    height:70vh;
+    margin-bottom: 5rem;;
+}
+.header-container{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    align-items:center;
+    gap:2em;
+    height:100%;
+}
+.header-left-heading{
+    font-size:2.4em;
+    color:rgb(194, 124, 19);
+}
+.header-left-para{
+    font-size:1.3em;
+    margin:1rem 0 2.5rem;
+    color:darkgoldenrod;
+
+}
+.header-left{
+    position:relative;
+    margin-top:7em;
+   
+}
+
+.header-right{
+    overflow:hidden;
+    height:500px;
+    width:900px;
+}
+
+
+
+/*-----------------CATEGORIES--------------*/
+.categories{
+    background-color:rgb(250, 204, 69);
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    height:32rem;
+    position:relative;
+    top:10em;
+    width:100%;
+    left:0rem;
+    border-left:20px solid rgb(99, 67, 7);
+    
+}
+.categories .category-title{
+    position:relative;
+    margin-bottom:1rem;
+    color:rgb(130, 89, 12);
+    line-height: 2;
+    font-size:3em;
+}
+.category-container{
+    display:grid;
+     grid-template-columns: 40% 60%;
+     gap:4rem;
+
+     
+
+}
+.category-left p{
+    font-size:1.2em;
+    color:rgb(134, 102, 22);
+
+}
+.category-left{
+    position:relative;
+    bottom:6em;
+    padding:50px;
+}
+.category-right{
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    gap:2.5rem;
+    position:relative;bottom:12em;
+
+}
+.category{
+ 
+    padding:2rem;
+    cursor:pointer;
+    position:relative;
+    background-color: #f58e40;;
+    transform:scale(1);
+    border: 5px solid rgb(239, 123, 35);
+    transition:0.5s;
+
+}
+.category:hover{
+   transform: scale(1.1);
+   transition:0.5s;
+}
+
+.category .span-heading{
+    font-size:1.3em;
+    padding:5px;
+}
+.category .span-para {
+    padding:3px;
+}
+.category-icon{
+    font-size:2em;
+    padding:5px 12px ;
+    background-color:rgba(255, 255, 255, 0.618);
+    position:relative;
+    border:2px solid rgb(148, 100, 12);
+
+}
+
+.category-button{
+    display: flex;
+    justify-content: center;
+  
+    position: relative;
+  
+    padding: 12px 0;
+    width:45%;
+    margin-top:3em;
+    font-size: 21px;
+    font-weight: 500;
+    border-radius:5px;
+    color: #F6F6F6;
+    border: 1px solid wheat;
+    text-decoration: none;
+    transition:0.5s;
+
+    cursor: pointer;
+  }
+  .category-button:hover{
+      transition:0.5s;
+      background-color:wheat;
+      color:#f58e40;
+      border-color:#f58e40;
+
+  }
+
+
+  /*----------------VIDEO------------*/
+  .video-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top:0;
+   height:600px;
+   width:100%;
+   filter:grayscale(70%);
+  border:5px solid rgb(131, 65, 3);
+    
+
+}
+video{
+    height:100%;
+    object-fit:cover;
+
+}
+.overlay-text{
+
+    position:relative;
+    border:1px solid rgb(208, 208, 216);
+    bottom:20em;
+    width:60%;
+    margin:auto;
+    border-radius:20px;
+    padding:50px;
+    color:wheat;
+    background-color:transparent;
+    
+}
+.overlay-text > h2{
+margin:auto;
+width:20%;
+padding-bottom:1em;
+}
+
+/*------------------------AOS SCROLLING-----------------*/
+.aos-scrolling{
+width:100%;
+height:100%;
+margin-top:20em;
+display:grid;
+grid-template-columns: 1fr 1fr;
+gap:2rem;
+}
+.scroll-one{
+    padding:20px;
+    background: rgba( 237, 175, 72, 0.85 );
+box-shadow: 0 8px 32px 0 rgb(218, 186, 71);
+backdrop-filter: blur( 9.5px );
+border: 3px solid rgba(221, 143, 9);
+transition:1s;
+
+}
+.scroll-one:hover{
+    box-shadow:-15px 30px 50px rgba(0,0,0,.5);
+    transform:scale(1.15) translateX(30px) translateY(-15px);
+    transition:1s;
+}
+  
+.scroll-one > h1{
+    padding:10px;
+    width:20%;
+    font-size:2em;
+    color:rgb(110, 68, 33);
+
+}
+.scroll-one > p{
+    padding:10px;
+    width:100%;
+    color:rgb(110, 68, 33);
+
+}
+
+/*------------------CLIP PATH-----------------*/
+
+.clip-heading{
+    margin:auto;
+color:#814619;
+    text-align: center;
+    font-size:3em;
+    text-transform: uppercase;
+    font-weight:600;
+    letter-spacing:10px;
+}
+.clip-path-card{
+    width:100%;
+height:100%;
+display:grid;
+grid-template-columns: repeat(3,1fr);
+gap:2em;
+position:relative;
+
+}
+.clip-container{
+    width:80%;
+    height: 400px;
+    background: #fff;
+    border: 2px solid rgb(102, 58, 7);
+    box-shadow: 0px 4px 7px rgba(0,0,0,.5);
+    cursor: pointer;
+    transition: all .5s cubic-bezier(.8,.5,.2,1.4);
+    overflow: hidden;
+    position: relative;
+    left:4em;
+}
+.clip-container img{
+width: 100%;
+height:100%;
+transition: all .5s cubic-bezier(.8,.5,.2,1.4);
+}
+
+.descriptions{
+    position: absolute;
+    top:0px;
+    left:0px;
+    background-color: rgba(255,255,255,.7);
+    width:100%;
+    height:100%;
+    transition: all .7s ease-in-out;
+    padding: 20px;
+    box-sizing: border-box;
+    clip-path: circle(0% at 100% 100%);
+}
+.clip-container:hover .descriptions{
+    left:0px;
+    transition: all .7s ease-in-out;
+    clip-path: circle(75%);
+    backdrop-filter:blur(10px);
+
+}
+.clip-container:hover{
+    transition: all .5s cubic-bezier(.8,.5,.2,1.4);
+    box-shadow:-15px 30px 50px rgba(0,0,0,.5);
+    transform: scale(1.1);
+    z-index: 9999;
+
+}
+.clip-container:hover img{
+    transition: all .5s cubic-bezier(.8,.5,.2,1.4);
+}
+.clip-container h1{
+    color: #5cb85c;
+    letter-spacing: 1px;
+    margin: 0px;
+}
+.clip-container p{
+    line-height: 24px;
+    height: 70%;
+}
+

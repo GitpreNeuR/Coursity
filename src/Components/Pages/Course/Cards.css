@@ -1,0 +1,96 @@
+.your-course-container{
+    gap:2em;
+    width:1920px;
+    margin-top:5em;
+    display: grid;
+    grid-template-columns:repeat(3,1fr);
+    transform:scale(0.8);
+
+
+}
+.main-course-wrapper > h2{
+  text-align: center;
+  margin:auto;
+  font-size: 3em;
+  position:relative;
+  top:2em;
+}
+
+
+
+.your-course{
+    height:500px;
+    width:450px;
+    overflow:hidden;
+    margin: auto;
+    border:2px solid brown;
+  }
+  .your-course-img{
+    height:210px;
+    width:450px;
+    margin: auto;
+  }
+  .your-course-img > img{
+    height:100%;
+    width:100%;
+  }
+  .course-card{
+    height:290px;
+    width:450px;
+    margin:auto;
+    background-color:rgb(234, 227, 201);
+  }
+  .your-course-info > h1{
+    padding:10px;
+    
+    
+    
+  }
+  .your-course-info > p{
+    padding:5px;
+  }
+  .enrolled{
+    color:rgb(42, 26, 26);
+  }
+  .star-icon{
+    color:gold;
+    padding:5px;
+  }
+  .course-trainer{
+    padding:5px;
+    float:right;
+    position:relative;
+    bottom:2em;
+  }
+  .course-trainer > span{
+      color:brown;
+  }
+  progress{
+    margin:0em 2.5em auto;
+    width:80%;
+    height:30px;
+    color:black;
+    position:relative;
+    bottom:1.3em;
+  }
+  .move{
+    width:30px;
+    float:right;
+    position:relative;
+    bottom:3.5em;
+    right:1em;
+  
+  }
+  .move > i{
+    font-size:2em;
+    cursor:pointer;
+    
+  }
+  .move > i:hover{
+    color:brown;
+  }
+  
+  
+  
+  
+  

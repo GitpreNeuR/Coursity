@@ -1,0 +1,201 @@
+.about-body{
+    max-height:100%;
+}
+.video-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    left: 0;
+    right: 0;
+    top: 5em;
+    bottom: 0;
+   height:600px;
+   width:1920px;
+   filter:grayscale(70%);
+  
+    
+
+}
+video{
+    height:100%;
+    object-fit:cover;
+
+}
+
+.team-player{
+    height:1200px;
+    overflow: hidden;
+    transform:scale(0.8);
+    margin-top:5em;
+}
+.overlay-text{
+
+    position:relative;
+    border:1px solid rgb(208, 208, 216);
+    bottom:20em;
+    width:60%;
+    margin:auto;
+    border-radius:20px;
+    padding:50px;
+    background-color:transparent;
+    
+}
+.overlay-text > h2{
+margin:auto;
+width:20%;
+padding-bottom:1em;
+}
+
+/*-------------OUR STORY-----------*/
+.origin-story-container{
+    max-width:1000px;
+    margin:auto;
+}
+.origin-story-container > .text-center{
+    font-size:6em;
+    padding-bottom:30px;
+    color:#4a3a10;
+    text-transform: uppercase;
+    text-align:center;
+}
+.origin-story-container > p{
+    font-size:1.6em;
+    color:#63370f;
+}
+
+
+
+
+
+
+/*------------TEAM SECTION-----------*/
+.section-team {
+	font-family: "Poppins", sans-serif;
+    position:relative;
+    top:2em;
+    background-color:#efb960;
+
+}
+.section-team >
+.about-container{
+    display:grid;
+    grid-template-columns: repeat(4,1fr);
+    padding-left:9%;
+    padding-bottom:10em;
+    margin:auto;
+    row-gap:12em;
+
+    
+}
+.info-container{
+    height:300px;
+    width:300px;
+    gap:2em;
+    position:relative;
+}
+.team-title{
+    font-family: "Poppins";
+    color:#4a3208;
+    font-size:5em;
+    margin:auto;
+    width:50%;
+    font-weight: 600;
+    padding:70px 0 0.3em 2em;
+}
+
+
+
+.section-team .about-header-section {
+	margin-bottom: 50px;
+}
+
+.section-team .about-header-section .small-title {
+    margin-bottom: 25px;
+	font-size: 16px;
+    font-weight: 500;
+    color: #3e64ff;
+}
+
+.section-team .about-header-section .title {
+    font-weight: 700;
+    font-size: 45px;
+}
+
+.section-team .single-person {
+	margin-top: 30px;
+	padding: 30px;
+	background: rgb(231, 162, 66);
+box-shadow: 0 8px 32px 0 rgba(105, 70, 18, 0.5);
+
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+cursor:pointer;
+
+
+}
+
+.section-team .single-person:hover {
+	background: linear-gradient(to right, #d6b210, #ed9911);
+}
+
+.section-team .single-person .person-image {
+    position: relative;
+    margin-bottom: 50px;
+    border-radius: 50%;
+    border: 3px solid transparent;
+    transition: padding .3s;
+    border-style:dotted;
+}
+
+.section-team .single-person:hover .person-image {
+	padding: 12px;
+    border: 3px dotted rgb(200, 186, 186);
+}
+
+.section-team .single-person .person-image img {
+	width: 100%;
+    border-radius: 50%;
+}
+
+.section-team .single-person .person-image .about-icon {
+	position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%,50%);
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    background-color:rgb(236, 191, 76);
+    color: #fff;
+    border-radius: 50%;
+    font-size: 24px;
+}
+
+.section-team .single-person:hover .person-image .about-icon {
+	background: none;
+	background-color: rgb(246, 246, 141);
+	color: #54400a;
+}
+
+.section-team .single-person .person-info .full-name {
+	margin-bottom: 10px;
+	font-size: 28px;
+    font-weight: 700;
+    color:#0d1c2e;
+}
+
+.section-team .single-person .person-info .speciality {
+    text-transform: uppercase;
+    font-size: 14px;
+    color: #0d1c2e;
+}
+
+.section-team .single-person:hover .full-name,
+.section-team .single-person:hover .speciality {
+	color: rgb(97, 64, 11);
+}
+

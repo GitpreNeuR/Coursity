@@ -1,0 +1,163 @@
+.main-form-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  
+  }
+  
+  
+  
+  .login-container {
+    position: relative;
+    padding: 50px;
+    width: 100%;
+    min-height: 380px;
+    height:650px;
+    max-width:800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba( 245, 166, 35, 0.75 );
+    box-shadow: rgba(153, 85, 32, 0.4) 5px 5px, rgba(153, 85, 32, 0.3) 10px 10px, rgba(153, 85, 32, 0.2) 15px 15px, rgba(153, 85, 32, 0.1) 20px 20px, rgba(153, 85, 32, 0.05) 25px 25px;
+    backdrop-filter: blur( 4px );
+-webkit-backdrop-filter: blur( 4px );
+border-radius: 10px;
+border: 2px solid brown;
+  }
+  
+  .login-form {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    
+  }
+  .login-form > h2 {
+    position:relative;
+    color: rgb(92, 49, 4);
+    letter-spacing: 2px;
+    margin-bottom: 30px;
+    transition:0.5s;
+     transition:0.5s;
+    text-align: center;
+    font-size:2em;
+    
+    
+  }
+  
+  .login-form .inputBx {
+    position: relative;
+    width: 100%;
+    position:relative;
+    left:4em;
+    margin:auto auto 20px auto;
+  }
+  .login-form .inputBx input {
+    width: 80%;
+    outline: none;
+    border: none;
+    border: 2px solid brown;
+    background: rgba(255, 255, 255, 0.2);
+    padding: 8px 10px;
+    padding-left: 40px;
+    border-radius: 15px;
+    color: #fff;
+    font-size: 16px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+  }
+  
+  
+  .login-form .inputBx .fas {
+    position: absolute;
+    top: 13px;
+    left: 13px;
+    font-size:1.4em;
+    color:rgb(73, 49, 7);
+  }
+  .login-form .inputSubmit{
+      margin:auto;   
+      width:100%;
+      margin-top:2em;
+
+
+  }
+  .login-form .inputSubmit input[type="submit"] {
+    background: #fff;
+    color: #111;
+    width:250px;
+    padding: 8px 10px;
+    box-shadow: none;
+    letter-spacing: 1px;
+    cursor: pointer;
+    transition: 0.2s;
+    left:30%;
+    border:2px solid rgb(153, 104, 6);
+    
+
+
+   
+    
+  }
+  
+  .login-form .inputSubmit input[type="submit"]:hover {
+    color: rgb(176, 111, 13);
+    transition: 0.2s;
+    background-color: rgb(238, 183, 128);
+  }
+  .login-form .inputBx input::placeholder {
+    color: #fff;
+  }
+  .login-form .inputBx span {
+    position: absolute;
+    left: 30px;
+    padding: 10px;
+    display: inline-block;
+    color: rgb(105, 64, 9);
+    transition: 0.5s;
+    pointer-events: none;
+  }
+  .login-form .inputBx input:focus ~ span, .login-form .inputBx input:valid ~ span {
+display: none;    font-size: 12px;
+  }
+  
+  .para-flex{
+      display:flex;
+      gap:2em;
+      margin:4em auto auto auto;
+      
+      justify-content: center;
+  }
+  .para-flex > p{
+      font-size:1.2em;
+  }
+
+  .para-flex > p >a{
+      color:white;
+  }
+  .para-flex > p >a:hover{
+      color:brown;
+  }
+  .social-login-icons{
+      display:flex;
+      gap:3em;
+      justify-content: center;
+      align-items: center;
+      margin:3em auto;
+
+  }
+  .social-login-icons > i{
+      color:rgb(80, 58, 6);
+      font-size:1.8em;
+      padding:10px;
+      border-radius: 50%;
+      cursor:pointer;
+      background-color: bisque;
+      border:2px solid brown;
+      transition: 0.3s;
+
+      
+  }
+  .social-login-icons > i:hover{
+      transform:scale(1.1);
+      transition: 0.3s;
+  }

@@ -1,0 +1,120 @@
+nav{
+    background: rgba(231, 159, 16, 0.45);
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 14px );
+    border: 2px solid rgba( 255, 255, 255, 0.18 );
+    height:5rem;
+    position:fixed;
+    top:0;
+    right:0;
+    z-index: 10;
+    width:100%;
+    
+}
+
+
+.nav-container{
+    height:100%;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    
+
+}
+button{
+    display:none;
+    
+}
+.navbar-menu-list{
+    display:flex;
+    align-items: center;
+    gap:4rem;
+    left:0em;
+    position:relative;
+    margin:auto;
+  
+
+}
+.navbar-menu-list >li> a{
+  text-decoration:none;
+  color:rgb(125, 83, 3);
+}
+.navbar-menu-list >li> a:hover{
+    text-decoration: none;
+}
+
+
+.navbar-menu-list > li{
+    width:120px;
+    font-size: 1.2rem;
+    font-weight: 550;
+    padding:5px;
+    list-style:none;
+    margin:auto;
+    transition:all 0.3s;
+
+    text-align: center;
+    cursor: pointer;
+    justify-content:center;
+    align-items:center;
+}
+.navbar-menu-list > li:hover{
+    transform:scale(1.1);
+    transition:all 0.3s;
+}
+.nav-link{
+    text-decoration: none;
+}
+.nav-link > .heading{
+    font-size:2em;
+    color:#df6a11;
+    position:relative;
+    left:5em;;
+}
+.nav-link:hover{
+    text-decoration: none;
+}
+.nav-button{
+    display: flex;
+    justify-content: center;
+    right:4em;
+    position: relative;
+    margin-left:10px;
+    padding: 12px ;
+    transform:scale(0.9);
+    font-size: 21px;
+    font-weight: 600;
+    color: #df6a11;
+    border: 2px solid rgb(95, 63, 5);
+    text-decoration: none;
+    
+    overflow: hidden;
+    cursor: pointer;
+}
+.nav-button::before{
+    content: "";
+    width: 100%;
+    height: 100%;
+  
+    position: absolute;
+  
+    background: wheat;
+  
+    transition: all .5s;
+    z-index: -1;
+  }
+  .item3::before{
+    width: 100%;
+    height: 0%;
+  
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(-45deg);
+  }
+  
+  .item3:hover::before{
+    height: 375%;
+
+  }
+

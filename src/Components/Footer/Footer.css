@@ -1,0 +1,134 @@
+footer {
+    background: rgba(239, 171, 61, 0.95);
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 9.5px );
+
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+    color: #bbb;
+    border:2px solid rgb(147, 74, 10);
+    position:relative;
+   bottom:0em;
+
+   width:100%;
+
+  }
+   ul{
+      list-style: none;
+  } 
+  footer a {
+    text-decoration: none;
+    color: #eee;
+  }
+  a:hover {
+    text-decoration: underline;
+  }
+  .ft-title {
+    color: #fff;
+    font-size: 1.5rem;
+    padding-bottom: 0.5rem;padding-right:1.1rem;
+    
+  }
+  /* Sticks footer to bottom */
+  body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+  }
+  .container {
+    flex: 1;
+  }
+  /* Footer main */
+  .ft-main {
+    padding: 1.25rem 1.875rem;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  /*RESPONSIVE*/
+  @media only screen and (min-width: 29.8125rem /* 477px */) {
+    .ft-main {
+      justify-content: space-evenly;
+    }
+  }
+  @media only screen and (min-width: 77.5rem /* 1240px */) {
+    .ft-main {
+      justify-content: space-evenly;
+    }
+  }
+  .ft-main-item {
+    padding: 1.25rem;
+    min-width: 12.5rem;
+    color:white;
+  }
+  
+  /* Footer main | Newsletter form */
+  form {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  input[type="email"] {
+    border: 0;
+    outline:0;
+    padding: 0.7rem;
+    margin-top: 0.3rem;
+    border-radius:20px;
+    width:250px;
+    transition:0.5s;
+    border:2px solid transparent;
+  }
+  input[type="email"]:focus{
+    border-color:brown;
+    transition:0.5s;
+  }
+  input[type="submit"] {
+    background-color: #00d188;
+    color: #fff;
+    cursor: pointer;
+    border: 0;
+    padding: 0.6rem 0.6rem;
+    margin-top: 0.3rem;
+    border-radius:20px;
+    position:relative;
+    right:50px;
+  }
+  /* Footer social */
+  .ft-social {
+    padding: 0 1.8rem 1.25rem;
+  }
+  .ft-social-list {
+    display: flex;
+    justify-content: center;
+    border-top: 2px solid #c06715;
+    padding-top: 1.25rem;
+  }
+  .ft-social-list li {
+    margin: 0.5rem;
+    font-size: 1.25rem;
+    
+  }
+  /* Footer legal */
+  .ft-legal {
+    padding: 0.9rem 1.8rem;
+    background: rgb(104, 84, 53);
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 9.5px );
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+  }
+  .ft-legal-list {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .ft-legal-list li {
+    margin: 0.125rem 0.625rem;
+    white-space: nowrap;
+  }
+  /* one before the last child */
+  .ft-legal-list li:nth-last-child(2) {
+      flex: 1;
+    
+  }
+  .ft-legal-list li:nth-child(3) {
+   color:white;
+    
+  }
+  
